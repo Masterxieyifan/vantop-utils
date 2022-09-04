@@ -8,7 +8,7 @@
 import { PredicateFunc, } from '../types/interface';
 import _baseFindIndex from './_baseFindIndex';
 
-export default function findLastIndex<T>(
+export default function findLastIndex<T  extends Record<string, any>>(
     arr: Array<T>,
     predicate: PredicateFunc | T,
     fromIndex?: number

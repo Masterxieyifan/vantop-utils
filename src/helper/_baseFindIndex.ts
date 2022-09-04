@@ -7,7 +7,7 @@
 
 import { PredicateFunc, } from '../types/interface';
 
-export default function _baseFindIndex<T>(
+export default function _baseFindIndex<T extends Record<string, any>>(
     arr: Array<T>,
     predicate: PredicateFunc | T,
     fromIndex: number,
