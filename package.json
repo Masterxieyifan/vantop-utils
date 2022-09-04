@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Utils Lib",
   "author": "yong.xie <535106615@qq.com>",
-  "homepage": "http://git.nextop.cc/FE-Lab/vantop-util/blob/develop/README.md",
+  "homepage": "https://github.com/Masterxieyifan/vantop-utils/blob/main/README.md",
   "license": "Apache-2.0",
   "main": "lib/index.js",
   "typings": "types/index.d.ts",
